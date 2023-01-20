@@ -1,4 +1,91 @@
 
-#studio {
-    background-color: #2E2F42;
+.header {
+
+
+}
+.header-nav {
+width: 66px;
+height: 24px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.logo {
+}
+.header-list {
+
+}
+
+.header-item{
+
+}
+.header-ref {
+}
+.header-contacts {
+}
+.contact-list {
+}
+.address {
+}
+.tel {
+}
+.main {
+}
+.hero {
+}
+.section {
+}
+.hero-text {
+}
+.btn {
+}
+.section1 {
+}
+.section1-list {
+}
+.section-item {
+}
+.section-text {
+}
+.section-subtitle {
+}
+.portfolio {
+}
+.portfolio-text {
+}
+.prtfolio-img {
+}
+.portfolio-list {
+}
+.portfolio-img {
+}
+.team {
+}
+.team-text {
+}
+.list-team {
+}
+.team-item {
+}
+.team-img {
+}
+.team-desc {
+}
+.team-subtext {
+}
+.footer {
+}
+.footer-nav {
+}
+.footer-ref {
+}
+.footer-text {
 }
