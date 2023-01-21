@@ -1,129 +1,90 @@
 .body{
-    background-color: #FFFFFF;
+    position: relative;
+width: 1440px;
+height: 2074px;
+background-color: #FFFFFF;
 }
     
-.potfolio-body{
-    position: relative;
-    width: 1440px;
-    height: 2074px;
-}
-
 .header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
     text-decoration: none;
-    list-style-type: none;
-    box-sizing: border-box;
-position: absolute;
-width: 1440px;
-height: 72px;
-left: 0px;
-top: 0px;
-background: #FFFFFF;
-border-bottom: 1px solid #E7E9FC;
-}
-
-.header-nav {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-color: #2E2F42;
-text-decoration: none;
-list-style-type: none;
-}
-
-.header-nav:focus {
-    color: #404BBF
-}
-
-.header-nav:hover{
-    color: #404BBF
-}
+    }
+    .header-nav {        
+    }
 
 .logo {
-}
-.header-list {
-    font-family: 'Roboto';
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+
+   .header-list {
+        list-style-type: none;
+        font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     color: #2E2F42;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.header-item{
-    text-decoration: none;
-    list-style-type: none;
-
-}
-.header-ref {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #2E2F42;
-flex: none;
-order: 2;
-flex-grow: 0;
-text-decoration: none;
-}
-.header-contacts {
-    text-decoration: none;
-}
-.contact-list {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #434455;
-text-decoration: none;
-list-style-type: none;
-}
-
-.address {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #434455;
-text-decoration: none;
-}
-
-.tel {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #434455;
-text-decoration: none;
-}
-
-
-.footer {
-    position: absolute;
-    width: 1440px;
-    height: 310px;
-    left: 0px;
-    top: 2280px;
-    background: #2E2F42
     }
-.footer-nav {
-}
-.footer-ref {
+    
+    .header-item {
+        
+    }
+    .header-ref {
+        text-decoration: none;
+    }
+    .header-contacts {
+        list-style-type: none;
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455
+    
+    }
+    
+    .contact-list {
+        text-decoration: none;
+    }
+    
+    .address {
+        color: #434455;
+        text-decoration: none;
+    }
+    .tel {
+        color: #434455;
+        text-decoration: none;
+    }
+    
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 .filters {
-    position: absolute;
-    width: 586px;
-    height: 48px;
-    left: 435px;
-    top: 173px;
-    
+    background-color:  #F4F4FD;
     }
-    .filter-items {
+
+.filter-items {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -133,43 +94,40 @@ text-decoration: none;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    text-decoration: none;
-    
+    color: #FFFFFF;    
     }
+
     .filter-btn {
-        width: 69px;
-    height: 48px;
-    background: #404BBF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 20px;
-    top: 20px;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
     cursor: pointer;
+    list-style-type: none;
     }
     
-    .filter-btn:hover{
-    padding: 16px 32px;
-    gap: 10px;
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 20px;
-    top: 88px;
-    background: #404BBF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    }
+.filter-btn:hover{
+    background-color:  #404BBF;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+color: #FFFFFF
+}
     .all{
     width: 69px;
     height: 48px;
@@ -178,27 +136,24 @@ text-decoration: none;
     
     .web{
         width: 116px;
-    height: 48px;
-    background: #F4F4FD;
+    height: 48px;;
     }
     
     .app{
         width: 78px;
-    height: 48px;
-    background: #F4F4FD;
+    height: 48px;;
     }
     
     .design{
         width: 101px;
-    height: 48px;
-    background: #F4F4FD;
+    height: 48px;;
     }
     
     .marketing{
         width: 126px;
     height: 48px;
-    background: #F4F4FD
     }
+
     .row-general {
         background-color: CORNFLOWER;
     }
@@ -226,9 +181,31 @@ text-decoration: none;
     color: #434455
     }
     
-.footer-text {
-    font-family: 'Roboto';
+    .footer {
+        background-color: #2E2F42;
+    }
+    .footer-nav {
+    }
+    .footer-ref {
+        text-decoration: none;
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD
+    
+    }
+    .footer-text {
+        font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     color: #E7E9FC
-}
+    }
