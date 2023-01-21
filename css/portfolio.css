@@ -81,7 +81,6 @@ background-color: #FFFFFF;
 }
 
 .filters {
-    background-color:  #F4F4FD;
     }
 
 .filter-items {
@@ -94,7 +93,7 @@ background-color: #FFFFFF;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;    
+    color: #F4F4FD;    
     }
 
     .filter-btn {
@@ -131,7 +130,6 @@ color: #FFFFFF
     .all{
     width: 69px;
     height: 48px;
-    background: #404BBF
     }
     
     .web{
@@ -158,10 +156,9 @@ color: #FFFFFF
         background-color: CORNFLOWER;
     }
     .row-items {
-        width: 360px;
-    height: 300px;
     list-style-type: none;
     }
+
     .row-text {
         font-family: 'Roboto';
     font-style: normal;
@@ -208,4 +205,4 @@ color: #FFFFFF
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #E7E9FC
-    }
+    }  
