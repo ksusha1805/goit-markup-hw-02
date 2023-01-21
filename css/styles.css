@@ -34,13 +34,28 @@ color: #2E2F42;
 }
 .main {
 }
-.hero {
+.hero-section {
+    background-color: #2E2F42;;
 }
-.section {
-}
+
 .hero-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
 }
-.btn {
+.hero-btn {
+width: 169px;
+height: 56px;
+left: 636px;
+top: 428px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 .section1 {
 }
@@ -49,22 +64,64 @@ color: #2E2F42;
 .section-item {
 }
 .section-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
 }
 .section-subtitle {
+width: 264px;
+height: 72px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+
 }
 .portfolio {
 }
 .portfolio-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
 }
 .prtfolio-img {
+background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2368.jpg);
+background-blend-mode: soft-light, normal;
+border: 1px solid #E7E9FC;
 }
 .portfolio-list {
 }
 .portfolio-img {
 }
 .team {
+    position: absolute;
+width: 1440px;
+height: 732px;
+left: 0px;
+top: 1548px;
+background: #F4F4FD;
 }
 .team-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+
 }
 .list-team {
 }
@@ -73,14 +130,42 @@ color: #2E2F42;
 .team-img {
 }
 .team-desc {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
 .team-subtext {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
 }
 .footer {
+background: #2E2F42
 }
 .footer-nav {
 }
 .footer-ref {
+width: 115px;
+height: 22px;
+left: 156px;
+top: 2380px;
 }
 .footer-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #E7E9FC
 }
