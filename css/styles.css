@@ -127,7 +127,7 @@ letter-spacing: 0.02em;
 color: #434455
 }
 .section2 {
-    background-color: #E5E5E5;
+    background-color: white;
 }
 .portfolio-text {
     font-family: 'Roboto';
@@ -165,37 +165,43 @@ color: #2E2F42;
 .team-subtext {
 }
 .footer {
-    text-decoration: none;
-    background-color: #2E2F42;
-    font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #F4F4FD
-}
-.footer-nav {  
-}
-
-.footer-ref{
-text-decoration: none;
-color: #F4F4FD;
-}
-
-
-.web-footer{
-color: #4D5AE5
-}
-.footer-text {
-    font-family: 'Roboto';
+    width: 1440px;
+    height: 310px;
+    left: 0px;
+    top: 2280px;
+    background: #2E2F42
+        }
+    
+        .footer-nav {
+    width: 115px;
+    height: 22px;
+    left: 156px;
+    top: 2380px;
+    
+        }
+        .footer-ref {
+            text-decoration: none;
+            font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+        }
+    
+        .web-footer {
+            color: #4D5AE5
+        }
+        .footer-text {
+            font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #E7E9FC;
-}  
+        }
