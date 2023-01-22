@@ -9,11 +9,12 @@ background-color: #FFFFFF;
     background: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;
     text-decoration: none;
+    color: #2E2F42
     }
-    .header-nav {        
+    .header-nav {
+        
     }
-
-.logo {
+    .logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -24,8 +25,11 @@ background-color: #FFFFFF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     }
-
-   .header-list {
+    
+    .web-logo{
+        color: #4D5AE5;
+    }
+    .header-list {
         list-style-type: none;
         font-family: 'Roboto';
     font-style: normal;
@@ -51,11 +55,9 @@ background-color: #FFFFFF;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455
-    
     }
     
     .contact-list {
-        text-decoration: none;
     }
     
     .address {
@@ -178,31 +180,38 @@ color: #FFFFFF
     color: #434455
     }
     
-    .footer {
-        background-color: #2E2F42;
-    }
-    .footer-nav {
-    }
-    .footer-ref {
+.footer {
         text-decoration: none;
+        background-color: #2E2F42;
         font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #F4F4FD
-    
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD
     }
-    .footer-text {
+    .footer-nav {  
+    }
+
+.footer-ref{
+    text-decoration: none;
+    color: #F4F4FD;
+}
+   
+
+.web-footer{
+    color: #4D5AE5
+}
+.footer-text {
         font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #E7E9FC
-    }  
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #E7E9FC;
+ }  
